@@ -18,7 +18,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 3. 561 column headers specifying time and frequency domain variables for the merged test and train data sets . Information about these variables can be found in the "features.txt" and "features_info.txt" files downloaded from the UCI repository . 
 
 # Data Set Transformations
-The following transformations were performed on the data sets downloaded from the UCI repository :
+The following transformations were performed on the data sets downloaded from the UCI repository
 1. "subject" and "activity" were column binded to the test and train data sets
 2. "activity ids" were mapped to their corresponding activity names
 3. the training and the test data sets with the subject and activity columns appended were merged into one data set using rbind .
